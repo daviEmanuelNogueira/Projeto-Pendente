@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="container">
-        <div class="filtro">
-            <label for:filtro>Data:</label>
-            <input type="date" id="" name="filtro"></div>
-        <div class="info info-vencido">
-            <spam class="numero">15</spam>
-            <p class="descricao">Vencido</p>
-        </div>
-        <div class="info info-venceagora">
-            <spam class="numero">2</spam>
-            <p class="descricao">Vence Agora</p>
-        </div>
-        <div class="info info-avencer">
-            <spam class="numero">20</spam>
-            <p class="descricao">À Vencer</p>
-        </div>
-        <div class="info info-total">
-            <spam class="numero">72</spam>
-            <p class="descricao">Total</p>
-        </div>
+        <section class="header">
+            <div class="filtro">
+                <label for:filtro>Data:</label>
+                <input type="date" id="" name="filtro">
+                <button type="button">Filtrar</button>
+            </div>
+            <div class="info info-vencido">
+                <spam class="numero">15</spam>
+                <p class="descricao">Vencido</p>
+            </div>
+            <div class="info info-venceagora">
+                <spam class="numero">2</spam>
+                <p class="descricao">Vence Agora</p>
+            </div>
+            <div class="info info-avencer">
+                <spam class="numero">20</spam>
+                <p class="descricao">À Vencer</p>
+            </div>
+            <div class="info info-total">
+                <spam class="numero">72</spam>
+                <p class="descricao">Total</p>
+            </div>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th>Mátricula</th>
+                </thead>
+            </table>
+        </section>
     </div>
+
 </body>
+
 </html>

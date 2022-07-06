@@ -5,7 +5,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #container{
-    margin: 4px;
+    margin: 5px;
+}
+.filtro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -16,6 +23,7 @@
     height: 80px;
     padding: 6px;
     text-align: end;
+    border-radius: 10px;
 }
 .numero{
     font-size: 2em;
