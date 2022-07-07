@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 .header{
     display: flex;
@@ -24,9 +25,15 @@
     padding: 6px;
     text-align: end;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .numero{
     font-size: 2em;
+}
+.descricao{
+    font-size: 0.8em;
 }
 .info-vencido{
     background-color: #f08989;
@@ -39,4 +46,10 @@
 }
 .info-total{
     background-color: #69d3fd;
+}
+
+@media only screen and (max-width: 600px) {
+    .descricao{
+        font-size: 80%;
+    }
 }
